@@ -55,4 +55,12 @@ public class Celebrity {
 	public void setAnswer(String newAnswer) {
 		answer = newAnswer;
 	}
+
+	/**
+	 * Provides a String representation of the Celebrity.
+	 */
+	@Override
+	public String toString() {
+		return "The Celebrity's name is: " + answer + ". The clue for this celebrity is: " + clue;
+	}
 }
